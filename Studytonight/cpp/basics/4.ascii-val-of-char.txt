@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char c;
+    cout << " =====  Program to Find the ASCII value of a character ===== \n\n";
+    cout << "Enter a character : ";
+    cin >> c;
+    cout << "\nThe ASCII value of the entered character is : " << (int)c << "\n\n";
+    return 0;
+}
+
+eg:
+cin>>A;
+cout<<65;
