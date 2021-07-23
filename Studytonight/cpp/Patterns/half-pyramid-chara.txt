@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{  
+    int count;
+    cout<<"number of rows?";
+    cin>>count;
+    int n=count+65;//starts with "A"
+    for(int j=65;j<=n;j++)
+        {    for(int i=65;i<=j;i++)
+                {cout<<char(i)<<" ";
+                }
+                cout<<endl;
+            
+                }
+    return 0;
+}
+
+A
+A B 
+A B C
+A B C D
+A B C D E
+A B C D E F
