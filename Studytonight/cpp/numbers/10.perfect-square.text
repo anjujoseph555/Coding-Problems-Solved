@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{   int n;
+    cout<<"Enter the number to be checked:";
+    cin>>n;
+    int sr = sqrt(n); 
+
+    if (sr * sr == n)
+        cout<<"\nPerfect square!";
+    else
+         cout<<"\nNot a Perfect square!";
+    return 0;
+}
