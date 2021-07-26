@@ -1,0 +1,26 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{   int n;
+    int arr[n];
+    cout<<"Enter the array size-->";
+    cin>>n;
+    cout<<"\nEnter the array elements-->";
+    for(int i=1;i<=n;i++){
+        cin>>arr[i];
+    }
+    int pos;
+    cout<<"\nEnter the pos of the array element to be deleted: ";
+    cin>>pos;
+    for(int j=pos;j<=n;j++){
+        arr[j]=arr[j+1];
+        
+    }
+    cout<<"\nArray elements after deletion:";
+    for(int i=1;i<=n-1;i++){
+        cout<<arr[i]<<" ";
+    }
+	return 0;
+}
