@@ -1,0 +1,22 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{   int n;
+    cout<<"Number: ";
+    cin>>n;
+    int copy=n;
+	int reverse = 0; 
+    int remainder = 0;
+
+
+    while (n != 0)
+    {
+        remainder = n % 10; //store the digit at the units place
+        reverse = reverse * 10 + remainder;
+        n /= 10;
+    }
+    cout<<"\nReverse of the no: "<<copy<<" is "<<reverse;
+	return 0;
+}
