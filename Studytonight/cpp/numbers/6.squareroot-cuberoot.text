@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath> // library which has predefined methods sqrt() and cbrt()
+
+using namespace std;
+
+int main(){
+    int n;
+    cout << " \n\nEnter the number you want to find the Square root and Cube root of : ";
+    cin >> n;
+    double sq,cb;
+ 
+    // Finding the square root and the cube root using the system defined methods
+    sq = sqrt(n);
+    cb = cbrt(n);
+
+    cout << " \n\nThe Square Root of the number " << n << " is : " << sq;
+    cout << " \n\nThe Cube Root of the number " << n << " is : " << cb;
+    return 0;
+}
