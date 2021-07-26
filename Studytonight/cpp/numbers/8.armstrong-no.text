@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n,temp,copy,sum=0;
+    cin>>n;
+    copy=n;
+    while(n!=0){
+        temp=n%10;
+        sum+=temp*temp*temp;
+        n=n/10;
+        
+    }
+    if(sum==copy)
+        cout<<"Its an armstrong number!";
+    else
+        cout<<"Not an armstrong number!";
+    return 0;
+}
