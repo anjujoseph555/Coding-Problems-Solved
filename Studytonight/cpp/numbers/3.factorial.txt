@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   int n;
+    int fact=1;
+    cout<<"Enter num whose factorial needs to be found:";
+    cin>>n;
+    for(int i=1;i<=n;i++)
+        fact*=i;
+    cout<<"\nFactorial:";
+    cout<<fact;    
+    return 0;
+}
